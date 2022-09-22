@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: white;
+    font-size: 70px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rampart One', cursive;
+    font-family: 'Silkscreen', cursive;
+}
+body{
+    background: rgb(19, 18, 18);
+}
+.header{
+    background: rgb(19, 18, 18);
+    background: linear-gradient(250deg, #9042BD , #9947C9 , #381A4A , #644BD6 ); 
+    width: 100%;
+    height: calc(100vh - 450px);
+    text-align: center;
+    position: relative;
+}
+header > img{
+    width: 300px;
+    height: auto;
+}
+.ola{
+    position: absolute;
+    bottom: 0;   
+    width: 100%;
+}
+p{
+    color: rgb(255, 255, 255);
+    float: left;
+    height: auto;
+    width: 50%;
+    text-align: justify;
+    margin: 30px;
+    margin-top: 3%;
+    font-size: 27px;
+}
+.img1{ 
+    padding: 10px;
+    margin: 30px; 
+    border: 2px solid #9042BD; 
+    height: auto;
+    width: 400px; 
+    margin-left: 200px;
+    margin-top: 2%;
+}
+.btns > a{
+    position: absolute;
+    left: 8%;
+    width: 200px;
+    line-height: 33px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(250deg, #9042BD , #9947C9 , #381A4A , #644BD6 );
+}
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 50px;
+    }
+    header > img{
+        width: 230px;
+        height: auto;
+    }
+    p{
+        width: auto;
+        text-align: justify;
+        margin: 30px;
+        margin-top: 3%;
+        font-size: 20px;
+    }
+    .img1{ 
+        padding: 10px;
+        margin: 0px; 
+        height: auto;
+        width: 200px; 
+        margin-left: 470px;
+        margin-top: 0px;
+    }
+    .btns > a{
+        position: absolute;
+        top: 80%;
+        left: 20%;
+    }
+}
+@media screen and (max-width: 500px) {
+    h1{
+        font-size:40px;
+    }
+    header > img{
+        width: 230px;
+        height: auto;
+    }
+    .par1{
+        width: auto;
+        text-align: justify;
+        margin: 30px;
+        margin-top: 3%;
+        font-size: 20px;
+    }
+    .par2{
+        width: auto;
+        text-align: justify;
+        margin: 30px;
+        margin-top: 20%;
+        font-size: 20px;
+    }
+    .img1{ 
+        padding: 10px;
+        margin: 0px; 
+        height: auto;
+        width: 200px; 
+        margin-left: 135px;
+        margin-top: 0px;
+    }
+    .btns > a{
+        position: absolute;
+        top: 65%;
+        left: 30%;
+    }
+}

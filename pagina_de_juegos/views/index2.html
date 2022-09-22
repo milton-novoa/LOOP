@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/css/styles2.css">
+    <title>Formulario de trabajo</title>
+</head>
+<body>
+    <header class="header">
+        <img  src="/img/loop_logo.png" alt="educación">
+    </header>  
+    <form class="form" id="form">
+        <label for="inputName">Introduzca su nombre</label>
+        <input type="text" id="nombre" name="inputName" value="" placeholder="Introduzca su nombre" title="Se admiten solo letras" autocomplete="off" required>
+
+        <label for="inputAge">Edad:</label>
+        <input type="number" min="0"  max="99"  id="inputAge" placeholder="ex: 23" required>
+
+        <label for="inputEmail">Correo electronico:</label>
+        <input type="email" id="inputEmail" placeholder="ex: myname@Example.com" required>
+        
+        <label for="inputTel">Teléfono</label>
+        <input id="telefono" type="text" name="inputTel" required/>
+
+        <label for="files">Carge su hoja de vida:</label>
+        <input type="file" id="files" required>
+
+        <label for="checkPolitica">¿Acepta terminos y condiciones?</label>
+        <input type="checkbox" id="checkPolitica" required>
+
+        <label for="otros">Especifique que cualidades tiene:</label>
+        <textarea name="texto" id="texto" rows="7" placeholder="Escriba las cualidades que crea que tenga y le aporten durante el trabajo"></textarea>
+
+        <button type="submit" class="btn" id="btnenviar">Enviar</button>
+    </form>
+    <script src="/scripts/main.js"></script>
+</body>
+</html>
